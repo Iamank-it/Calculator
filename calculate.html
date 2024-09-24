@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <title>Calculator</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <script src='script.js'></script>
+  <link rel="stylesheet" href="style.css">
+  <style>
+  </style>
+</head>
+<body>
+  <div class="display-div">
+  <h1>CALCULATOR</h1>
+    <input class="display" id="display" readonly >
+  </div>
+  <div class="outer-div">
+    <button onclick="clearDisplay()" class="operator">CL</button>
+    <button onclick="appendToDisplay('/')" class="operator">/</button>
+    <button onclick="appendToDisplay('*')" class="operator">*</button>
+    <button onclick="appendToDisplay('-')" class="operator">-</button>
+    <button onclick="appendToDisplay('7')" class="operands">7</button>
+    <button onclick="appendToDisplay('8')" class="operands">8</button>
+    <button onclick="appendToDisplay('9')" class="operands">9</button>
+    <button onclick="appendToDisplay('+')" class="operator" id="add">+</button>
+    <button onclick="appendToDisplay('4')" class="operands">4</button>
+    <button onclick="appendToDisplay('5')" class="operands">5</button>
+    <button onclick="appendToDisplay('6')" class="operands">6</button>
+    <button onclick="appendToDisplay('1')" class="operands">1</button>
+    <button onclick="appendToDisplay('2')" class="operands">2</button>
+    <button onclick="appendToDisplay('3')" class="operands">3</button>
+    <button onclick="calculate()" class="operator" id="add">=</button>
+    <button onclick="appendToDisplay('0')" class="operands" id="zero">0</button>
+    <button onclick="appendToDisplay('.')" class="operator" >.</button>
+    
+  </div>
+</body>
+</html>
